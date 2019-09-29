@@ -1,6 +1,8 @@
 package com.example.demo_intent;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
     private String hoten;
     private String birthday;
     private String address;

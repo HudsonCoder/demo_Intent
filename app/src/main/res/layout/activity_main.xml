@@ -7,11 +7,9 @@
     tools:context="com.example.demo_intent.MainActivity"
     android:background="@color/colorAccent">
 
-    <ListView
-        android:id="@+id/listView"
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.demo_intent.Fragment_Student"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-
-
 </RelativeLayout>
